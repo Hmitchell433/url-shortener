@@ -1,0 +1,20 @@
+.grid {
+  width: 100%;
+  border: 2px solid black;
+}
+
+.gridHeader {
+  font-weight: bold;
+  text-decoration: underline;
+  align-items: center;
+}
+
+.gridCell {
+  padding: 8px;
+  border: 2px solid black;
+  width: 50%;
+}
+
+.gridCell:first-child {
+  padding-right: 10px;
+}

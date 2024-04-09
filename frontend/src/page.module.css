@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+  min-height: 100vh;
+  gap: 3px;
+  background-color: pink;
+}
+
+.spacer {
+  height: 10px;
+}
+
+.box {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
